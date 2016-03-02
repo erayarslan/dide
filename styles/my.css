@@ -9,3 +9,60 @@
     background-position: right;
     background-repeat: no-repeat;
 }
+
+body {
+    background: #6D7074;
+}
+
+
+.terminal-window {
+    text-align: left;
+    height: inherit;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.terminal-window header {
+    background: #E0E8F0;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.terminal-window header .button {
+    width: 12px;
+    height: 12px;
+    margin: 10px 4px 0 0;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.terminal-window header .button.green {
+    background: #3BB662;
+}
+
+.terminal-window header .button.yellow {
+    background: #E5C30F;
+    display: none;
+}
+
+.terminal-window header .button.red {
+    background: #E75448;
+    display: none;
+}
+
+.terminal-window section.terminal {
+    color: white;
+    font-family: Menlo, Monaco, "Consolas", "Courier New", "Courier";
+    font-size: 11pt;
+    background: #30353A;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    bottom: 0;
+    overflow: auto;
+}
+
+.terminal-window .gray { color: gray; }
+.terminal-window .green { color: green;}
